@@ -1,13 +1,13 @@
 
 //variables 
 const idiomaNativo:string = "Español";
-//console.log("Idioma selecionado es", idiomaNativo)
+// console.log("Idioma selecionado es", idiomaNativo)
 
-let likesEnFotos: number = 0;
-//console.log("Mi foto tiene ", likesEnFotos)
+let likesEnFotos: number = 3;
+// console.log("Mi foto tiene ", likesEnFotos)
 
-likesEnFotos =15;
-//console.log("Mi foto tiene ", likesEnFotos)
+likesEnFotos =20;
+// console.log("Mi foto tiene ", likesEnFotos)
 
 //primitivas
 let curso:string = "Moviles 1"
@@ -16,9 +16,9 @@ let ciclo:number = 6;
 
 let esHibrido: boolean = true;
 
-// console.log("Mi curso es de ", curso)
-// console.log("Mi ciclo es  ", ciclo)
-// console.log("React Native es hibrido ", esHibrido)
+//  console.log("Mi curso es de ", curso)
+//  console.log("Mi ciclo es  ", ciclo)
+//  console.log("React Native es hibrido ", esHibrido)
 
 
 
@@ -29,13 +29,15 @@ interface Alumno{
     nombre:string;
     edad:number;
     carrera?:string; // opcional
+    favorito:string;
 }
 
 const estudianteEjmplo:Alumno ={
 
     nombre:"Andy",
     edad: 22,
-    carrera: "Desarrollo de Sotfware"
+    favorito:"Base de datos"
+   // carrera: "Desarrollo de Sotfware"
 }
 
 //  console.log("Alumno",estudianteEjmplo)
@@ -45,7 +47,7 @@ const saludarEstudiante = (a:Alumno): string=> {
 }
 
 let respuesta:string = saludarEstudiante(estudianteEjmplo);
-console.log("Probando la funcion ",respuesta)
+//  console.log("Probando la funcion ",respuesta)
 
 interface BotonProps{
     titulo: string;
