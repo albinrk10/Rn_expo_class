@@ -9,13 +9,64 @@
 
 Esta guía reúne las instalaciones recomendadas para el curso de React Native con Expo. La idea es que cada alumno pueda seguir los pasos en orden, verificar que todo quedó listo y evitar errores comunes desde el inicio.
 
-## Antes de empezar
+## 📦 Proyectos del Curso
+
+En este repositorio contamos con 3 proyectos principales. A continuación se explica brevemente para qué sirve cada uno y cómo puedes iniciarlos en tu computadora.
+
+### 1. `contador`
+- **¿Para qué sirve?** Es una aplicación básica construida con **Expo** y utiliza **Expo Router** para el manejo de rutas y navegación. Como su nombre indica, probablemente es una app interactiva de contador.
+- **¿Qué vas a aprender aquí?** Ideal para dar los primeros pasos en React Native, entender la estructura de carpetas de Expo Router y manejar el estado básico (state) en React.
+
+### 2. `first_nativewind`
+- **¿Para qué sirve?** Es un proyecto que integra **NativeWind** (que nos permite usar Tailwind CSS en React Native).
+- **¿Qué vas a aprender aquí?** Perfecto para aprender a dar estilos a tus aplicaciones móviles de manera rápida y moderna usando las clases utilitarias de Tailwind, combinadas con la navegación de Expo Router.
+
+### 3. `my-expo-app`
+- **¿Para qué sirve?** Es un proyecto base (boilerplate) también configurado con **NativeWind**, pero que añade configuraciones avanzadas para mantener un código limpio y ordenado utilizando herramientas como **ESLint** y **Prettier**.
+- **¿Qué vas a aprender aquí?** Te servirá como base sólida para iniciar proyectos escalables y profesionales asegurando buenas prácticas y un código uniforme.
+
+---
+
+## 🚀 ¿Cómo iniciar cualquiera de estos 3 proyectos?
+
+Sigue estos 3 sencillos pasos para levantar cualquiera de los proyectos:
+
+### Paso 1: Abre la terminal en la carpeta del proyecto
+Primero debes ubicarte dentro de la carpeta del proyecto que quieres ejecutar. En tu terminal (o consola de VS Code), escribe `cd` seguido del nombre del proyecto.
+Por ejemplo, si quieres iniciar el contador:
+```bash
+cd contador
+```
+
+### Paso 2: Instala las dependencias
+Antes de correr el proyecto, necesitas descargar todas las librerías necesarias. Ejecuta el siguiente comando (solo es necesario hacerlo la primera vez):
+```bash
+npm install
+```
+
+### Paso 3: Inicia el servidor de Expo
+Una vez que termine la instalación, levanta el proyecto ejecutando:
+```bash
+npm start
+# o también puedes usar: npx expo start
+```
+
+### Paso 4: ¡Visualiza la App!
+Cuando ejecutes el comando anterior, verás un código QR en tu terminal. Tienes varias opciones:
+- **En tu celular físico:** Abre la app de **Expo Go**, escanea el código QR y la app cargará en tu celular.
+- **En un Emulador:** Presiona la tecla `a` en tu terminal para abrirlo en el emulador de Android, o la tecla `i` para abrirlo en el simulador de iOS (solo en Mac).
+
+*(Nota: Repite estos mismos pasos si deseas iniciar `first_nativewind` o `my-expo-app`, cambiando el nombre de la carpeta en el Paso 1).*
+
+---
+
+## Antes de empezar con las instalaciones
 
 1. Verifica que tu computadora tenga conexión a internet estable.
 2. Cierra programas que puedan bloquear instalaciones, como antivirus o instaladores viejos.
 3. Si ya tenías herramientas instaladas, revisa que estén actualizadas antes de comenzar.
 
-## Orden recomendado de instalación
+## Orden recomendado de instalación general
 
 ### 1. Instala Visual Studio Code
 
@@ -105,6 +156,3 @@ Antes de empezar a programar, confirma lo siguiente:
 6. Si no usarás emulador, Vysor está instalado y tu celular se conecta por cable USB.
 7. Expo Go está instalado en el celular.
 8. Las extensiones de VS Code ya están instaladas.
-
-
-
