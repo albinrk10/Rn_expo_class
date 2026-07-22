@@ -5,7 +5,7 @@
 
 
 
-# Curso de React Native - Expo
+# Curso de React Native - Expo 2026
 
 Esta guía reúne las instalaciones recomendadas para el curso de React Native con Expo. La idea es que cada alumno pueda seguir los pasos en orden, verificar que todo quedó listo y evitar errores comunes desde el inicio.
 
