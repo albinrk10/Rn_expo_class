@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "demo-photo-notes-persistencia-solucion-docente",
+    "slug": "demo-photo-notes-persistencia-solucion-docente",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "demophotonotesdocente",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true,
+      "package": "com.albin.semana10photonotes"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permite seleccionar fotos para registrar evidencias.",
+          "cameraPermission": "Permite usar la cámara para tomar evidencias."
+        }
+      ],
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

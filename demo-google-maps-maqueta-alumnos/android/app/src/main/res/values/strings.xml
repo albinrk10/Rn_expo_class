@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">demo-google-maps-maqueta-alumnos</string>
+  <string name="expo_system_ui_user_interface_style" translatable="false">automatic</string>
+</resources>
