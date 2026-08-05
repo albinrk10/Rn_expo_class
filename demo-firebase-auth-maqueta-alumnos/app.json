@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "Firebase Auth Maqueta",
+    "slug": "demo-firebase-auth-maqueta-alumnos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "firebaseauthmaqueta",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.idat.firebaseauthmaqueta"
+    },
+    "plugins": ["expo-router"]
+  }
+}
